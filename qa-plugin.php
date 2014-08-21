@@ -4,7 +4,7 @@
 	Plugin Name: Simple Social Sharing
 	Plugin URI: http://www.question2answer.org/qa/31585
 	Plugin Description: Adds Simple Clickable Social Sharing Buttons Below Questions
-	Plugin Version: 1.3
+	Plugin Version: 1.4
 	Plugin Date: 2014-02-01
 	Plugin Author: Digitizor Media
 	Plugin Author URI: http://digitizormedia.com
