@@ -35,7 +35,7 @@ class qa_html_theme_layer extends qa_html_theme_base
 						qa_opt('simple_social_sharing_buttons_tw')?'<a href="https://twitter.com/intent/tweet?original_referer='.$page_url.'&amp;text='.$page_title.'&amp;url='.$page_url.'" rel="external nofollow" target="_blank" class="qa-sss-tw" title="share this question on Twitter">share on tw</a>':'',
 						qa_opt('simple_social_sharing_buttons_li')?'<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url='.$page_url.'&amp;title='.$page_title.'&amp;summary='.$page_title.'" rel="external nofollow" target="_blank" class="qa-sss-li" title="share this question on Linkedin">share on li</a>':'',
 						qa_opt('simple_social_sharing_buttons_re')?'<a href="http://www.reddit.com/submit?url='.$page_url.'&amp;title='.$page_title.'" rel="external nofollow" target="_blank" class="qa-sss-re" title="share this question on Reddit">share on re</a>':'',
-						qa_opt('simple_social_sharing_buttons_em')?'<a href="mailto: ?subject='.$page_title.'&amp;body=Check this out: '.$page_title.' - '.$page_url.'" rel="external nofollow" target="_blank" class="qa-sss-em" title="share this question via e-mail">share via email</a>':'',
+						qa_opt('simple_social_sharing_buttons_em')?'<a href="mailto:?subject='.str_replace("+"," ",$page_title).'&amp;body=Check this out: '.str_replace("+"," ",$page_title).' - '.$page_url.'" rel="external nofollow" target="_blank" class="qa-sss-em" title="share this question via e-mail">share via email</a>':'',
 					'</div>',
 					'<div class="qa-sss-clear"></div>',
 				'</div>'
